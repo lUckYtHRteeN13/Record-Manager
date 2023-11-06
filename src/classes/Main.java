@@ -487,7 +487,6 @@ public class Main extends javax.swing.JFrame {
 
     private void deleteBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteBtnActionPerformed
         // TODO add your handling code here:
-        System.out.println("--Delte--");
         this.image.setIcon(null);
         this.nameTF.setText(null);
         this.images[navigator] = this.image.getIcon();
